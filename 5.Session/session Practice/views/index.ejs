@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <% if(!email){%>
+         <h2>Example of Session In Express JS</h2>
+    <hr>
+    <center>
+        <a href="/">Home</a> | 
+        <a href="/login">Login</a>
+
+    </center>
+    <hr>
+    <span style="color: red;"><%=msg%></span>
+    
+    <%} else{%>
+         <h2>Example of Session In Express JS</h2>
+    <hr>
+    <center>
+        <a href="/">Home</a> | 
+        <a href="/logout">LogOut</a>
+    </center>
+    <hr>
+   <span style="color: red;"><%=msg%></span> 
+    <h2>Welcome <%=email%></h2>
+    <%}%>
+</body>
+</html>
