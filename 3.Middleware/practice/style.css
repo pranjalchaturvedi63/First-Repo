@@ -1,0 +1,10 @@
+#banner{
+    width: 100%;
+    height: 200px;
+    background-color: dodgerblue;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
